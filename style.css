@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #F4F9F9;
+}
+
+.header{
+    background-color: #1E6F5C;
+}
+
+.logo-principal img{
+    width: 28px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-principal{
+    color: #29BB89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel-formularios{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formulario-cadastro{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F9F9;
+    border: solid 2px #aeb3b3 ;
+}
+
+.formulario-cadastro form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+#form-cadastro input{
+    width: 200px;
+}
+
+.btn-cadastro{
+    margin-top:50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    background-color: #1E6F5C;
+    color:#F4F9F9
+
+}
+
+.formulario-consulta{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F9F9;
+    border: solid 2px #aeb3b3 ;
+}
+
+.formulario-consulta form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+
+.btn-registrar{
+    margin-top:50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E6F5C;
+    color:#F4F9F9
+
+}
+
+.painel-status{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-cards{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-items: center;
+}
+
+.card{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFF;
+    border: solid 2px #aeb3b3;
+}
+
+.footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E6F5C;
+    color: #FFFF;
+}

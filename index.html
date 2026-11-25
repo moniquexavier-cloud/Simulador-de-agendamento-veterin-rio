@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador veterinário</title>
+</head>
+<body>
+    
+<header>
+<section class= "header">
+<div class= "logo-principal">
+<img src="assets/petshopLogo.svg">
+<h1>PetCare</h1>
+</div>
+</section>
+</header>
+
+<main>
+
+<div id="alerta" class="alerta oculto" role="alert"></div>
+
+<section class="painel-formularios">
+
+<div class="formulario-cadastro">
+<div class="formulario-header">
+<h2>Cadastre seu Pet aqui:</h2>
+</div>
+
+<form id="form-cadastro">
+<label for="nome-pet">Nome do Pet:</label>
+<input type="text" id="nome-pet" placeholder="Insira o nome do pet" required>
+
+
+<label for="nome-tutor">Nome do Tutor:</label>
+<input type="text" id="nome-tutor" placeholder="Insira o nome do tutor" required>
+
+
+<label for="codigo-pet">Código de Ficha:</label>
+<input type="text" id="codigo-pet" placeholder="Ex: PET-105" required>
+
+<button type="submit" class="btn-cadastro">Cadastrar</button>
+
+</form>
+</div>
+
+<div class="formulario-consulta">
+<div class="formulario-header">
+<h2>Registre sua Consulta:</h2>
+</div>
+
+<form id="form-atendimento">
+<label for="select-pet">Pet disponível:</label>
+<select id="select-pet" required>
+<option value="">Selecione um Pet...</option>
+</select>
+
+
+<label for="select-servico">Selecione o Serviço realizado:</label>
+<select id="select-servico" required>
+<option value="">Selecione um serviço...</option>
+<option value="Banho e Tosa">Banho e Tosa</option>
+<option value="Consulta Veterinária">Consulta Veterinária</option>
+<option value="Vacinação">Vacinação</option>
+<option value="Exame Laboratorial">Exame Laboratorial</option>
+</select>
+
+<button type="submit" class="btn-registrar">Registar Consulta</button>
+
+
+</form>
+</div>
+
+</section>
+
+<section class="painel-status">
+<h2>Pets Cadastrados e Status</h2>
+<div id="lista-cards" class="lista-cards">
+
+</section>
+
+</main>
+
+<footer>
+<div class="footer">
+PetCare - Teste SAEP
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
